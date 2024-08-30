@@ -4,11 +4,15 @@ public class Hesap {
     private String password;
     private int balance;
 
+    //Constructor
+    
     public Hesap(String username, String password, int balance) {
         this.username = username;
         this.password = password;
         this.balance = balance;
     }
+
+    //Getter and Setter
 
     public String getUsername() {
         return username;
