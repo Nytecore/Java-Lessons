@@ -4,121 +4,122 @@ public class Main {
 
     public static void main(String[] args) {
 
-            Login login = new Login();
-            Register register = new Register();
+        Scanner scanner = new Scanner(System.in);
 
-            Scanner scanner = new Scanner (System.in);
+        Login login = new Login();
+        Register register = new Register();
 
-            String username;
-            String password;
-            String password_again;
-            String choose;
+        String username;
+        String password;
+        String password_again;
+        String choose;
+        String choose_2;
 
-            System.out.println("\n******************************");
-            System.out.println("\tWELCOME TO TEST SERVER");
-            System.out.println("******************************");
+        System.out.println("\n***********************************************");
+        System.out.println("\tREGISTER OR SIGN IN THE 'TEST' PROGRAM");
+        System.out.println("***********************************************");
 
-            System.out.println("\nYou should to login the system.");
+        String options =
+                "\nPress '1' for register" +
+                        "\nPress '2' for sing-up" +
+                        "\nPress 'q' for exit";
 
-            String options = "\nPress '1' for register" +
-                             "\nPress 'q' for exit";
+        System.out.println(options);
 
-            System.out.println(options);
+        while (true) {
+            System.out.print("\nMake a keystroke : ");
+            choose = scanner.nextLine();
+
+            if (choose.equals("q")) {
+                System.out.println("Exiting the program...");
+                return;
+
+            } else if (choose.equals("2")) {
+                System.out.println("Firstly you should register the program..");
+                continue;
+
+            } else if (choose.equals("1")) {
+
+                System.out.println("\n\t----- REGISTER SCREEN -----");
+
+                System.out.print("\nEnter Username : ");
+                username = scanner.nextLine();
+
+                while (true) {
+
+                    System.out.print("Enter Password : ");
+                    password = scanner.nextLine();
+
+                    System.out.print("Enter Password Again : ");
+                    password_again = scanner.nextLine();
+
+                    if (!password.equals(password_again)) {
+                        System.out.println("\nPasswords are not match. Try again..");
+                        continue;
+
+                    } else {
+                        register.setUser_name(username);
+                        register.setPassword(password);
+                        System.out.println("\nRegister succesful...");
+                        break;
+                    }
+                }
+            } else {
+                System.out.println("Wrong key...");
+                continue;
+            }
+
+            String options_2 = "\nPress '1' for sing-up" +
+                               "\nPress 'q' for exit";
+            System.out.println(options_2);
 
             while (true) {
+                System.out.print("\nMake a keystroke : ");
+                choose_2 = scanner.nextLine();
 
-                System.out.print("\nEnter your choose : ");
-                choose = scanner.nextLine();
+                if (choose_2.equals("q")) {
+                    System.out.println("Exiting the program....");
+                    break;
 
-                if (choose.equals("q")) {
-                    System.out.println("Exiting the test system....");
-                    return;
+                }
+                else if (choose_2.equals("1")) {
 
-                } else if (choose.equals("1")) {
+                    System.out.println("\n\t----- LOGIN SCREEN -----");
 
-                    System.out.println("\n---- Register Account ----");
+                    if (login.login(register)) {
+                        System.out.println("\nWelcome " + register.getUser_name());
+                        return;
+                    }
 
-                    System.out.print("\nEnter Username : ");
-                    username = scanner.nextLine();
-                    register.setUser_name(username);
+                    else {
+                        int login_attemp = 3;
+                        System.out.println("\nWrong username or password. Please try again... ");
 
+                        while (true) {
 
-                    while (true) {
+                            if (login.login(register)) {
+                                System.out.println("Welcome " + register.getUser_name());
+                                return;
+                            }
+                            else {
+                                System.out.println("\nLogin failed.");
+                                login_attemp -= 1;
+                                System.out.println("Login attemp remaining : " + login_attemp);
 
-                        System.out.print("Enter Password : ");
-                        password = scanner.nextLine();
+                                if (login_attemp == 0) {
+                                    System.out.println("No more login attemp, block the program...");
+                                    System.out.println("\nEXITING...");
 
-                        System.out.print("Enter Password Again : ");
-                        password_again = scanner.nextLine();
-
-                        if (password.equals(password_again) ) {
-                            System.out.println("\nRegister Success.");
-                            register.setPassword(password);
-                            break;
-
-                        } else {
-                            System.out.println("\nThe two passwords do not match.");
+                                }
+                            }
                         }
                     }
                 }
 
                 else {
-                    System.out.println("Incorrect choose.");
-                    continue;
+                    System.out.println("Wrong key...");
+
                 }
-
-                break;
-            }
-
-        System.out.println("\n-------------------------------------------");
-            System.out.println("\tDo you want to login your account ?");
-        System.out.println("-------------------------------------------");
-
-
-        while (true) {
-
-        String decision;
-
-        String ask = "\n1 - YES" +
-                     "\n2 - NO (Exit the test program)";
-
-            System.out.println(ask);
-
-        System.out.print("\nEnter your choose : ");
-            decision = scanner.nextLine();
-
-            if (decision.equals("2")) {
-                System.out.println("\nExiting the test program....");
-                return;
-
-            } else if (decision.equals("1")) {
-
-                int login_attemp = 3;
-
-                while (true) {
-
-                    if (login.login(register)) {
-                        System.out.println("\nLogin Successful. Welcome " + register.getUser_name());
-                        return;
-
-                    } else {
-                        System.out.println("\nLogin failed.");
-                        login_attemp -= 1;
-                        System.out.println("Login attemp remaining = " + login_attemp);
-
-                        if (login_attemp == 0) {
-                            System.out.println("System blocked. No more login attemp. Exiting....");
-                            return;
-
-                        }
-
-                    }
-                }
-            }
-
-            else {
-                System.out.println("\nWrong key, choose again!");
-
             }
         }
     }
