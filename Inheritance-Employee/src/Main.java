@@ -95,19 +95,13 @@ public class Main {
             System.out.println(" ");
 
             if (o_options.equals("q")) {
-                System.out.println("\nClosing all program....");
+                System.out.println("\nClosing the program....");
                 return;
             }
 
             else if (o_options.equals("1")) {
 
-                System.out.print("Enter Username : ");
-                usrname = scanner.nextLine();
-
-                System.out.print("Enter Password : ");
-                pw = scanner.nextLine();
-
-                if (usrname.equals(register.getUser_name()) && pw.equals(register.getPassword())) {
+                if (login.login(register)) {
 
                     System.out.println("\n----------------------------------------------------");
                     System.out.println("----------- WELCOME TO EMPLOYEES PROGRAM -----------");
@@ -211,7 +205,6 @@ public class Main {
                                         manager.raiseWage(raiseWageAmount);
 
                                     }
-
                                 }
 
                                 else if (mng_op.equals("2")) {
@@ -241,6 +234,7 @@ public class Main {
 
                     while (true) {
 
+                                    // Call login method in login class with register
                         if (login.login(register)) {
                             System.out.println("\nLogin Successful. Welcome " + register.getUser_name());
 

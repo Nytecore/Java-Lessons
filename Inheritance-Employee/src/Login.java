@@ -9,7 +9,7 @@ public class Login {
         String user_name;
         String passworld;
 
-        System.out.print("\nEnter your username : ");
+        System.out.print("Enter your username : ");
         user_name = scanner.nextLine();
 
         System.out.print("Enter your password : ");
