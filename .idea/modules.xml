@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ATMProgram/ATMProgram.iml" filepath="$PROJECT_DIR$/ATMProgram/ATMProgram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdvancedCalculator/AdvancedCalculator.iml" filepath="$PROJECT_DIR$/AdvancedCalculator/AdvancedCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Armstrong/Armstrong.iml" filepath="$PROJECT_DIR$/Armstrong/Armstrong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bank-Interest/Bank-Interest.iml" filepath="$PROJECT_DIR$/Bank-Interest/Bank-Interest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BodyMassIndex/BodyMassIndex.iml" filepath="$PROJECT_DIR$/BodyMassIndex/BodyMassIndex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Break-Continue/Break-Continue.iml" filepath="$PROJECT_DIR$/Break-Continue/Break-Continue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Constructor/Constructor.iml" filepath="$PROJECT_DIR$/Constructor/Constructor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Do-While.Loops/Do-While.Loops.iml" filepath="$PROJECT_DIR$/Do-While.Loops/Do-While.Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EBOB-GreatestDivisor/EBOB-GreatestDivisor.iml" filepath="$PROJECT_DIR$/EBOB-GreatestDivisor/EBOB-GreatestDivisor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Enter-OOP/Enter-OOP.iml" filepath="$PROJECT_DIR$/Enter-OOP/Enter-OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/For-Loops/For-Loops.iml" filepath="$PROJECT_DIR$/For-Loops/For-Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fuel-Calculation/Fuel-Calculation.iml" filepath="$PROJECT_DIR$/Fuel-Calculation/Fuel-Calculation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Grade-Calculation/Grade-Calculation.iml" filepath="$PROJECT_DIR$/Grade-Calculation/Grade-Calculation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/If-Cases/If-Cases.iml" filepath="$PROJECT_DIR$/If-Cases/If-Cases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance-Employee/Inheritance-Employee.iml" filepath="$PROJECT_DIR$/Inheritance-Employee/Inheritance-Employee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance-pt1/Inheritance-pt1.iml" filepath="$PROJECT_DIR$/Inheritance-pt1/Inheritance-pt1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance-pt2/Inheritance-pt2.iml" filepath="$PROJECT_DIR$/Inheritance-pt2/Inheritance-pt2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritence-Arabalar/Inheritence-Arabalar.iml" filepath="$PROJECT_DIR$/Inheritence-Arabalar/Inheritence-Arabalar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-Lessons.iml" filepath="$PROJECT_DIR$/.idea/Java-Lessons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Largest3Numbers/Largest3Numbers.iml" filepath="$PROJECT_DIR$/Largest3Numbers/Largest3Numbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Login-Account/Login-Account.iml" filepath="$PROJECT_DIR$/Login-Account/Login-Account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Login-Register/Login-Register.iml" filepath="$PROJECT_DIR$/Login-Register/Login-Register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Method-Overloading/Method-Overloading.iml" filepath="$PROJECT_DIR$/Method-Overloading/Method-Overloading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Methods/Methods.iml" filepath="$PROJECT_DIR$/Methods/Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Multiplication-Table/Multiplication-Table.iml" filepath="$PROJECT_DIR$/Multiplication-Table/Multiplication-Table.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP-ATM/OOP-ATM.iml" filepath="$PROJECT_DIR$/OOP-ATM/OOP-ATM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP-Workout/OOP-Workout.iml" filepath="$PROJECT_DIR$/OOP-Workout/OOP-Workout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Return-Methods/Return-Methods.iml" filepath="$PROJECT_DIR$/Return-Methods/Return-Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Simple-Calculator/Simple-Calculator.iml" filepath="$PROJECT_DIR$/Simple-Calculator/Simple-Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Swap2Numbers/Swap2Numbers.iml" filepath="$PROJECT_DIR$/Swap2Numbers/Swap2Numbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Switch-Case/Switch-Case.iml" filepath="$PROJECT_DIR$/Switch-Case/Switch-Case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thousand-Prime-Numbers/Thousand-Prime-Numbers.iml" filepath="$PROJECT_DIR$/Thousand-Prime-Numbers/Thousand-Prime-Numbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/While-Loops/While-Loops.iml" filepath="$PROJECT_DIR$/While-Loops/While-Loops.iml" />
+    </modules>
+  </component>
+</project>
