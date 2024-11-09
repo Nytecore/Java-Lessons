@@ -1,0 +1,10 @@
+Bora Yıldırım,Sanat Tarihi
+Mehmet Gençol,Bilgisayar Mühendisliği
+Mustafa Murat Coşkun,Bilgisayar Mühendisliği
+Hidayet Çengel,Sanat Tarihi
+Görkem Özer,İstatistik
+Aydın Çelik,Sanat Tarihi
+Yusuf Mücahit Çetinkaya,İşletme
+Oğuz Artıran,Finansal Matematik
+Hasan Bayhan,İşletme
+Berkan Alaca,Sanat Tarihi

@@ -1,0 +1,15 @@
+Idman Programı
+Burpee Sayısı : 50
+Plank Sayısı : 50
+Leg Press Sayısı : 50
+Pushup Sayısı : 50
+1. işlem ----> Hareket: Plank ----> Sayı: 35
+2. işlem ----> Hareket: Plank ----> Sayı: 25
+3. işlem ----> Hareket: Pushup ----> Sayı: 15
+4. işlem ----> Hareket: Pushup 45 ----> Sayı: 45
+5. işlem ----> Hareket: Pushup ----> Sayı: 45
+6. işlem ----> Hareket: Bench Press ----> Sayı: 40
+7. işlem ----> Hareket: Bench Press ----> Sayı: 30
+8. işlem ----> Hareket: Leg Press ----> Sayı: 20
+9. işlem ----> Hareket: Leg Press ----> Sayı: 10
+10. işlem ----> Hareket: Leg Press ----> Sayı: 20
