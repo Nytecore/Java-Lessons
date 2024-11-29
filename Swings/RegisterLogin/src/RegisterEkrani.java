@@ -31,6 +31,7 @@ public class RegisterEkrani extends JFrame {
 
                 ArrayList<User> user_list = AnaEkran.getUser_list();
                 user_list.add(new User(kullanici_adi, parola));
+                JOptionPane.showMessageDialog(RegisterEkrani.this, "Kayıt oluşturuldu..");
                 setVisible(false);
             }
         });
