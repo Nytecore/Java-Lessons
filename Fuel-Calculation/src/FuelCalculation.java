@@ -24,5 +24,6 @@ public class FuelCalculation {
         System.out.print("\nAracınız, " + z + "km mesafede " + z * (x * y / 100f) + "TL yakıt harcamıştır.");
 
 
+
     }
 }

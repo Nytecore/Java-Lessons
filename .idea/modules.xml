@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/BodyMassIndex/BodyMassIndex.iml" filepath="$PROJECT_DIR$/BodyMassIndex/BodyMassIndex.iml" />
       <module fileurl="file://$PROJECT_DIR$/Break-Continue/Break-Continue.iml" filepath="$PROJECT_DIR$/Break-Continue/Break-Continue.iml" />
       <module fileurl="file://$PROJECT_DIR$/Constructor/Constructor.iml" filepath="$PROJECT_DIR$/Constructor/Constructor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Denemeler/Denemeler.iml" filepath="$PROJECT_DIR$/Denemeler/Denemeler.iml" />
       <module fileurl="file://$PROJECT_DIR$/Do-While.Loops/Do-While.Loops.iml" filepath="$PROJECT_DIR$/Do-While.Loops/Do-While.Loops.iml" />
       <module fileurl="file://$PROJECT_DIR$/EBOB-GreatestDivisor/EBOB-GreatestDivisor.iml" filepath="$PROJECT_DIR$/EBOB-GreatestDivisor/EBOB-GreatestDivisor.iml" />
       <module fileurl="file://$PROJECT_DIR$/Enter-OOP/Enter-OOP.iml" filepath="$PROJECT_DIR$/Enter-OOP/Enter-OOP.iml" />
@@ -29,10 +30,12 @@
       <module fileurl="file://$PROJECT_DIR$/Multiplication-Table/Multiplication-Table.iml" filepath="$PROJECT_DIR$/Multiplication-Table/Multiplication-Table.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP-ATM/OOP-ATM.iml" filepath="$PROJECT_DIR$/OOP-ATM/OOP-ATM.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP-Workout/OOP-Workout.iml" filepath="$PROJECT_DIR$/OOP-Workout/OOP-Workout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Problems/Problems.iml" filepath="$PROJECT_DIR$/Problems/Problems.iml" />
       <module fileurl="file://$PROJECT_DIR$/Return-Methods/Return-Methods.iml" filepath="$PROJECT_DIR$/Return-Methods/Return-Methods.iml" />
       <module fileurl="file://$PROJECT_DIR$/Simple-Calculator/Simple-Calculator.iml" filepath="$PROJECT_DIR$/Simple-Calculator/Simple-Calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Swap2Numbers/Swap2Numbers.iml" filepath="$PROJECT_DIR$/Swap2Numbers/Swap2Numbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/Switch-Case/Switch-Case.iml" filepath="$PROJECT_DIR$/Switch-Case/Switch-Case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tahmin Oyunu/Tahmin Oyunu.iml" filepath="$PROJECT_DIR$/Tahmin Oyunu/Tahmin Oyunu.iml" />
       <module fileurl="file://$PROJECT_DIR$/Thousand-Prime-Numbers/Thousand-Prime-Numbers.iml" filepath="$PROJECT_DIR$/Thousand-Prime-Numbers/Thousand-Prime-Numbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/While-Loops/While-Loops.iml" filepath="$PROJECT_DIR$/While-Loops/While-Loops.iml" />
     </modules>
